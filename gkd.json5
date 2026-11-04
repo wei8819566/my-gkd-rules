@@ -365,9 +365,9 @@ apps:[
           fastQuery: true,
           actionCd: 1200,
           swipeArg: {
-            start: { x: 'screenWidth/2', y: 'screenHeight * 0.7' },
-            end: { x: 'screenWidth/2', y: 'screenHeight * 0.3' },
-            duration: 200,
+            start: { x: 'screenWidth/2', y: 'screenHeight * 0.55' },
+            end: { x: 'screenWidth/2', y: 'screenHeight * 0.15' },
+            duration: 250,
           },
           activityIds: [
             'com.dragon.read.component.shortvideo.impl.ShortSeriesActivity',
@@ -384,9 +384,9 @@ apps:[
           name: '②4.5秒[上滑]1次（横屏兜底）',
           actionCd: 4500,
           swipeArg: {
-            start: { x: 'screenWidth/2', y: 'screenHeight * 0.7' },
-            end: { x: 'screenWidth/2', y: 'screenHeight * 0.3' },
-            duration: 200,
+            start: { x: 'screenWidth/2', y: 'screenHeight * 0.55' },
+            end: { x: 'screenWidth/2', y: 'screenHeight * 0.15' },
+            duration: 250,
           },
           activityIds: [
             'com.dragon.read.component.shortvideo.impl.fullscreen.ShortSeriesLandActivity',
